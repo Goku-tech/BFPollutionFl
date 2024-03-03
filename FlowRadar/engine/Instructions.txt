@@ -1,0 +1,17 @@
+Run QueryOnly.py with the following arguments:
+
+
+
+
+
+This is the code for Query-Only adversary attacks simulation.
+It contains two files: BF_v2.py and flowRadar_v2.py
+BF_v2 contains the functions needed for the simulation.
+flowRadar_v2 contains functions related to the BloomFilter and the decoding process.
+in the main file 'BF_v2.py', the main function calls the BloomFilter func. the first two lines need to be changed.(comments have been added for it)
+to run the file:
+    python3 BF_v2.py
+    then enter the percentage of malicious flows to be crafted when prompted.
+    <The packet counts is based on the top x %>
+
+All parts are commented and extraneous functions are included.
